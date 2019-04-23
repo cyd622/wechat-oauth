@@ -21,12 +21,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Cyd622\\WechatOAuth\\": "src/"
+            "Cyd622\\WeChatOAuth\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Cyd622\\WechatOAuth\\Tests\\": "tests/"
+            "Cyd622\\WeChatOAuth\\Tests\\": "tests/"
         }
     }
 }
