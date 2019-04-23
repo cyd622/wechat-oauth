@@ -1,0 +1,32 @@
+{
+    "name": "cyd622/wechat-oauth",
+    "description": "微信小程序登录",
+    "keywords": [
+        "wechat-oauth",
+        "wechat",
+        "weixin",
+        "weixinlogin"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "cyd622",
+            "email": "luffywang622@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.0",
+
+        "ext-json": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Cyd622\\WechatOAuth\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Cyd622\\WechatOAuth\\Tests\\": "tests/"
+        }
+    }
+}
