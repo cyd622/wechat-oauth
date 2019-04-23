@@ -9,6 +9,7 @@
 
 namespace Cyd622\WeChatOAuth;
 use Cyd622\WeChatOAuth\Exception\WeChatOAuthException;
+use Cyd622\WeChatOAuth\Exception\ErrorCode;
 
 class WXBizDataCrypt
 {
