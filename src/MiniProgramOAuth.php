@@ -66,7 +66,7 @@ class MiniProgramOAuth
      * 通过加密的数据拿到openId或者unionId
      * @param $encryptedData
      * @param $iv
-     * @return string
+     * @return array
      * @throws WeChatOAuthException
      */
     public function getUserInfo($encryptedData, $iv)
